@@ -1,0 +1,21 @@
+a{ /* ziyaret edilen-edilmeyen hepsinin stillerini değiştirmek için kullanılır*/
+     color: green;
+}
+
+a:link{ /* ziyaret edilMEmiş*/
+     color: chocolate;
+}
+
+a:visited{/* ziyaret edilmiş*/
+     color:blue;
+}
+
+a:hover{ /* fare ile üzerine gelindiğinde renklendirir.. değiştirir, stili belirler*/
+     background-color: aqua; 
+     text-decoration: underline;
+}
+
+.title:hover{
+     color: red;
+     cursor: help;
+}
