@@ -1,0 +1,44 @@
+.kutu1{
+     background-color: aqua;
+     width: 3cm;
+     height: 30%;
+  
+}
+
+.kutu2{
+     background-color: red;
+     width: 300px;
+}
+
+.kutu3{
+     background-color: blue;
+     width: 50%; /* body nin içinde olduğu için body nin %50sini aldı parent ın %sini alır*/
+     height: 300px;
+     font-size: 2em;
+}
+
+.kutu4{
+     background-color: burlywood;
+     width: 50%; /* kutu3 kutu4 ün parent i olduğu için parent in %50sini kapsar*/
+     height: 50%;
+     font-size: 2em; /* parent ın değerini alır, ayrıca kendisine yazılan değeri de alır yani burada 4em olur*/
+     font-size: 3rem; /* rem en üst parent a bakar, başka bir şeye bakmaz*/
+}
+
+.kutu5{
+     background-color: chartreuse;
+     width: 50vw; /* pencerenin genişliğine göre ayarlar, parent e göre AYARLAMAZ  viewportWidth*/
+}
+
+
+
+
+/*
+yatayda 1920
+dikeyde 1080
+300/1920
+
+yatayda 1024
+dikeyde 720
+300/1024
+*/

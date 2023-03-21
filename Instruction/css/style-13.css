@@ -1,0 +1,13 @@
+.kutu1{
+     background-color: aqua;
+     margin-bottom: 20px;
+     margin-top: 30px;
+}
+
+.kutu2{
+     background-color: blue;
+     margin: 20px; /* margin dış taraftan boşluk*/
+     padding: 5px 10px;/* padding iç taraftan alt-üst-sağ-soldan boşluk*/
+} /* üst sağ alt sol
+     dikey yatay
+     margin ve padding lerin bu şekilde de kullanımı var*/

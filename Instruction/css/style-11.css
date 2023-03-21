@@ -1,0 +1,6 @@
+ul.lorem-list{
+     list-style-type:  disc; /* elemanın başına yuvarlak, kare, boş vb. simgeler için kullanılır*/
+     list-style-position: inside;
+     line-height: 2rem; /* listelerin arasını açmak için*/
+
+}
