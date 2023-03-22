@@ -1,0 +1,28 @@
+.kutu1{
+     background-color: aqua;
+     text-align: center; /* inline taglar kolay hizalanır*/
+     padding-right: 10px;
+}
+
+.kutu2{
+     background-color: rgb(240, 94, 10);
+}
+
+.kutu3{
+     background-color: rgb(6, 22, 247);
+     text-align: right; /* inline yapıları ve yazıları hizalar*/
+}
+
+.kutu4{
+     background-color: rgb(245, 24, 153);
+     width: 100px;
+     margin-right: 0; /* sağ tarafa hizaladık*/
+     margin-left: auto;
+}
+/* ne tarafa hizalanacaksa o taraf 0 değerini alır, diğer taraf ise auto değerini alır
+     sol için margin-left: 0
+              margin-right: auto
+     ortalama için margin-left: auto
+                   margin-right: auto          
+              */
+
