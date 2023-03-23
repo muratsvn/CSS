@@ -1,0 +1,29 @@
+body{
+     font-family: 'Roboto', sans-serif;
+}
+
+a{
+     text-decoration: none;
+     color: black;
+     font-weight: 400;
+}
+
+nav.main-menu{
+     background-color: rgb(38, 57, 226);
+}
+
+nav.main-menu ul{
+     list-style-type: '🐫';
+     list-style-position: inside; /*içeri almaya yarar*/ 
+     padding: 0;
+}
+
+.main-menu a{
+     padding: 5px;
+}
+
+
+nav.main-menu-link a:hover{
+     color: white;
+     background-color: rgb(230, 110, 13);
+}

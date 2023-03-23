@@ -1,0 +1,17 @@
+:root{
+     --color1: rgb(214, 233, 131);
+     --color2: rgb(243, 75, 9);
+}
+
+.title{
+     color: var(--color2);
+}
+
+.about{
+     background-color: var(--color1);
+}
+
+mark{
+     background-color: var(--color2);
+     color:var(--color1)
+}
