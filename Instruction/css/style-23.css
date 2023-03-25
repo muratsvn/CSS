@@ -1,0 +1,48 @@
+.login-form input[type="text"]{ /* tüm inputlar değil içinte text olanlar*/
+     background-color: rgb(226, 233, 230);
+     border: none;
+     padding: 5px 10px;
+}
+
+.login-form input[type="text"]:focus{ /*aktif olan form elemanı verdiğimiz color ı alır*/ 
+     background-color: aqua;
+}
+
+.ckbx-menu:checked{
+     outline: 3px solid red; 
+}
+
+a:hover{
+     background-color: red;
+}
+a:active{
+     background-color:blue;
+}
+
+ul.liste li:first-child{ /*birinci çocuğa işlem yapar*/
+     font-weight: bold;
+}
+
+ul.liste li:last-child{ /*son çocuğa işlem yapar*/
+     font-style: italic;
+}
+
+ul.liste li:nth-child(3){ /*3.çocuğa işlem yapar*/
+     color: rebeccapurple;
+}
+
+.price-list{
+     margin: auto;
+}
+
+.price-list tr:nth-child(odd){ /* odd tek satırlara işlem yapar*/
+     background-color: rgb(241, 181, 111);
+}
+
+.price-list tr:nth-child(even){ /* even çift satırlara işlem yapar*/
+     background-color: rgb(175, 179, 206);
+}
+
+.price-list tr:nth-child(3n+1){ /* istediğimiz satırlara işlem yapar*/
+     background-color: rgb(201, 98, 167);
+}
