@@ -1,0 +1,31 @@
+nav.menu li{ /* tüm li'ler*/
+     color: navy;
+}
+
+nav.menu > ul > li{  /* nav.menu'nun çocuğu olan ul yani aylar green olur*/
+     color: green;
+}
+
+nav.menu ul ul > li{ /* nav.menu'nun içindeki ul onun içindeki ul'nin çocuğu olan li yani günler*/
+     color: blueviolet;
+}
+
+nav.menu>ul>li>ul>:nth-child(2){
+     color: chartreuse;
+}
+
+nav.menu ul ul li:last-child{
+     font-weight: bold;
+}
+
+nav.menu + p{ /* nav.menu'den sonraki ilk p tagına etki eder, sadece ilkine etki eder*/
+     font-size: 2rem; /* nav.menu'den hemen sonra gelmeli yoksa seçmez*/
+}
+
+nav.menu ~ p{ /* nav.menu ile aynı seviyedeki tüm p'lere etki eder*/
+     color: aqua;
+}
+
+nav.menu > ul > li:nth-child(3) ~ li{
+     color:red;
+}

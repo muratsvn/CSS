@@ -1,0 +1,8 @@
+.chk-mode:checked + .content{ /*checkbox işaretlendiğinde hemen sonrasında content elemanını seçip color uygula*/
+     background-color: black;
+     color: white;
+}
+
+.chk-mode{
+     display: none;
+}
