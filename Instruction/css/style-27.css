@@ -6,3 +6,10 @@
 .chk-mode{
      display: none;
 }
+
+.btn-mode{
+     background-color: aqua;
+     padding: 5px 10px;
+     display: inline-block;
+     cursor: pointer;
+}
