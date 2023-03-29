@@ -1,0 +1,35 @@
+.container{
+     display: flex;
+     flex-direction: column;/*4 değer alabilir, bunları incele-54321 diye yazdırma gibi*/
+     justify-content: center;
+     align-items: stretch; /*default değeri, tüm satırı kaplar*/
+     border: 1px solid red;
+     height: 50vh; /* sayfayı baz alır 50 dersek yarısı gibi*/
+}
+
+.container div{
+     /* display: flex; rakamları tam olarak ortaladık
+     justify-content: center;
+     align-items: center;*/
+}
+
+.container div:nth-child(1){
+     background-color: aqua;
+}
+
+.container div:nth-child(2){
+     background-color: rgb(224, 176, 41);
+}
+
+.container div:nth-child(3){
+     background-color: rgb(115, 223, 27);
+}
+
+.container div:nth-child(4){
+     background-color: rgb(27, 51, 190);
+}
+
+.container div:nth-child(5){
+     background-color: rgb(228, 61, 97);
+}
+
