@@ -1,0 +1,32 @@
+.container{
+     display: flex;
+     justify-content: space-between;
+     flex-direction: row;
+     align-items: center;
+     flex-wrap: wrap;
+     height: 50vh;
+     gap:5px; /*  elemanların birbiri arasındaki boşluk vermek için kullanılır*/
+}
+
+.container div:nth-child(1){
+     background-color: aqua;
+     flex:1 0 200px;
+}
+
+.container div:nth-child(2){
+     background-color: rgb(224, 176, 41);
+    
+}
+
+.container div:nth-child(3){
+     background-color: rgb(115, 223, 27);
+   
+}
+
+.container div:nth-child(4){
+     background-color: rgb(27, 51, 190);
+}
+
+.container div:nth-child(5){
+     background-color: rgb(228, 61, 97);
+}
