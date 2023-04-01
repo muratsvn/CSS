@@ -1,0 +1,67 @@
+:root{
+     --color1:rgb(218, 63, 63);
+     --color2:rgb(184, 156, 156);  
+     --color3: white; 
+}
+
+.bolum{
+     margin-top: 2px;
+     border-left: 2px solid rgb(209, 203, 203); 
+     border-bottom: 2px solid rgb(209, 203, 203); 
+     border-radius: 15px;
+}
+
+
+.bolum .first{
+     display: flex;
+     justify-content: space-between;
+}
+
+.first p:first-child{
+     flex: 3;
+     background-color: var(--color1);
+     padding: 15px;
+     border-radius: 10px 0 0 0;
+     margin-top: 0;
+}
+
+.first p:last-child{
+     flex: 8;
+     background-color: var(--color2);
+     border-radius: 0 10px 0 0;
+     margin-top: 0;
+}
+
+.bolum .second{
+     display: flex;
+     gap: 15px;
+     align-items: center;
+     margin-left: 20px; 
+     margin-top: 0;
+     flex-wrap: wrap;
+}
+
+.bolum .second p{
+     font-size: 2rem;
+     font-size: bold;
+     background-color: var(--color1);
+     color: var(--color3);    
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;  
+     flex: 0 0 50px;
+     margin-bottom: 0;
+}
+
+.bolum .second h2{
+     flex: 0 0 320px;
+     margin-bottom: -12px;
+}
+
+.bolum > p{
+     margin: 50px 15px;
+}
+
