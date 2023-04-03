@@ -1,0 +1,60 @@
+html, body {
+     height: 100%;
+     width: 100%;
+   }
+
+:root{
+     --color1: #563775;
+     --color2: #f0eef2;
+     --color3: white;  
+}
+
+.sec{
+     display: flex;
+     border: 7px solid var(--color1);
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     height: 90vh;
+
+}
+
+.sec .right-side{
+     background-image: url(../../img/bg-login.jpg);
+     flex: 5 1 50px;
+     align-items: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     color: var(--color3);
+}
+
+.sec .left-side{
+     background-color: var(--color2);
+     flex: 3 1 50px;
+     display: flex;
+     flex-direction: column;
+     
+}
+
+.sec .left-side div:first-child i{
+     padding: 6px;
+}
+
+.sec .left-side div:nth-child(2){
+     display: flex;
+     text-align: center;
+     justify-content: center;
+}
+
+.sec .left-side div:nth-child(3){
+     display: flex;
+     text-align: center;
+     justify-content: center;
+}
+
+.sec .left-side div:nth-child(3) > input{
+     border: none;
+     border-bottom: 4px solid var(--color1);
+     box-sizing: border-box;
+     padding: 6px 17px;
+     background-color: var(--color2);
+}
