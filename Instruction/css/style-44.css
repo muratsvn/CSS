@@ -1,0 +1,7 @@
+.box{
+     width: 200px;
+     height: 200px;
+     background-color: red;
+     transform: translate(50px, 300px);/*margin gibi davranıyor diyebiliriz 
+     ama etrafındakileri ötelemez*/
+}

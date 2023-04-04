@@ -1,0 +1,46 @@
+body{
+     background-color: white;
+     display: flex;
+     flex-direction: column;
+ }
+ .menu{
+     width: 50vh;
+ }
+ .menu div:first-child{
+     background-color: aqua;
+     color: white;
+     padding: 15px;
+     margin: 10px;
+     text-align: center;
+     font-size: 40px;
+ }
+ .form {
+     display: flex;
+     flex-direction: column;
+     color: black;
+     gap: 10px;
+ }
+ .form input:first-child,:nth-child(2){
+     padding: 15px;
+     gap: 15px;
+ }
+ .form textarea:placeholder-shown{
+     padding: 10px;
+     padding-top: 20px;
+ }
+ .menu button{
+    background-color: transparent;
+     color: white;
+     text-align: center;
+     border: none;
+     font-size:20px;
+     width: 100%;
+     cursor: pointer;
+ }
+ .menu div:last-child{
+     display: flex;
+     background-color: aqua;
+     justify-content: center;
+     padding: 15px;
+     margin: 15px;
+ }
