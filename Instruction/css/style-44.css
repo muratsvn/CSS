@@ -5,3 +5,8 @@
      transform: translate(50px, 300px);/*margin gibi davranıyor diyebiliriz 
      ama etrafındakileri ötelemez*/
 }
+
+.img-iphone{
+     transform: rotate(-60deg);
+     transform: scale(0.5) rotate(-60deg);
+ }
