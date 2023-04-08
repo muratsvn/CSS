@@ -21,6 +21,17 @@
     <title>Order Starlink</title>
   </head>
   <body>
+    <input type="checkbox" id="chkMenu" class="chkMenu">
+    <nav class="side-menu">
+      <label for="chkMenu"><i class="fa-solid fa-times"></i></label>
+      <ul class="menu1">
+        <li><a href="#">MAP</a></li>
+        <li><a href="#">RESOURCES</a></li>
+        <li><a href="#">SPECIFICATIONS</a></li>
+        <li><a href="#">US <i class="fa-solid fa-globe"></i></a></li>
+        <li><a href="#">SIGN IN</a></li>
+      </ul>
+    </nav>
     <section class="banner">
       <div class="navbar">
         <div class="logos">
@@ -28,7 +39,7 @@
           <img src="img/logo_white.png" class="logo" alt="Starlink" />
         </div>
         <nav class="first-nav">
-          <ul>
+          <ul class="menu2">
             <li><a href="#">RESIDENTIAL</a></li>
             <li><a href="#">BUSINESS</a></li>
             <li><a href="#">ROAM</a></li>
@@ -43,12 +54,32 @@
             <li><a href="#">SUPPORT</a></li>
             <li>
               <a href="#"
-                ><label><i class="fa-solid fa-bars"></i></label
+                ><label for="chkMenu"><i class="fa-solid fa-bars"></i></label
               ></a>
             </li>
           </ul>
         </nav>
       </div>
+
+      <div class="content">
+        <h1>ORDER STARLINK</h1>
+        <p>
+          Starlink provides high-speed, low-latency broadband internet across
+          the globe. <br />
+          Within each coverage area, orders are fulfilled on a first-come,
+          first-served basis.
+        </p>
+      </div>
+      <div class="order-form">
+        <form action="">
+          <input type="text" placeholder="SERVICE ADDRESS">
+          <button>ORDER NOW</button>
+        </form>
+        <div class="map"><a href="#">VIEW AVAILABILITY MAP &gt;</a></div>
+        <div class="privacy">By clicking order now, you agree to our <a href="#">Privacy Policy</a></div>
+        <div class="scroll"><i class="fa-solid fa-chevron-down"></i></div>
+      </div>
+
     </section>
   </body>
 </html>
