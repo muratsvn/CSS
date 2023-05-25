@@ -1,5 +1,7 @@
 @use "variables" as v;
 @use "mixins" as m;
+@use "common";
+
 .weather-card{
     background-color: v.$color1;
     color: white;
@@ -84,6 +86,10 @@
                     color: v.$color1;
                 }
             }
+        }
+
+        .btn-change{
+            @extend .button;
         }
     }
 }

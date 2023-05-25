@@ -1,4 +1,5 @@
 @use "variables" as v;
+@use "mixins" as m;
 
 body{
     font-family: v.$primary-font;
@@ -11,6 +12,13 @@ body{
 .button{
     cursor: pointer;
     border: none;
-    @include m.border-radius(20px);
     padding: 10px;
+    @include m.border-radius(20px);
+    @include m.bg(image, linear-gradient(90deg, v.$color4, v.$color5));
+}
+
+@each $key, $val in v.$colors{
+    .#{$key}{
+        color: $val;
+    }
 }

@@ -6,10 +6,16 @@ body {
   box-sizing: border-box;
 }
 
-.button {
+.button, .weather-card > .right-panel .btn-change {
   cursor: pointer;
   border: none;
-  @i;
+  padding: 10px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  background-image: linear-gradient(90deg, rgb(217, 122, 227), rgb(144, 14, 158));
 }
 
 .weather-card {
@@ -137,6 +143,6 @@ body {
   font-weight: 600;
 }
 .weather-card > .right-panel ul.days li.active {
-  background-color: rgb(228, 220, 220);
+  background-color: rgb(234, 234, 234);
   color: rgb(0, 0, 84);
 }/*# sourceMappingURL=style.css.map */
