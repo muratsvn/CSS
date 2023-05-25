@@ -1,0 +1,16 @@
+@use "variables" as v;
+
+body{
+    font-family: v.$primary-font;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.button{
+    cursor: pointer;
+    border: none;
+    @include m.border-radius(20px);
+    padding: 10px;
+}
